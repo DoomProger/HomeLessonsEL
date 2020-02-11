@@ -10,3 +10,11 @@ n = 0
 for pil in list_type:  # pil - position in list
     print(f'Элемент №{n} со значением {pil} является типом: {type(pil)}')
     n += 1
+
+print('')
+print('Используя функцию enumerate:')
+print('')
+
+list_type = ['Привет', 123, 123.33, 5 + 7j, None]
+for ind, pil in enumerate(list_type):  # pil - position in list
+    print(f'Элемент №{ind} со значением {pil} является типом: {type(pil)}')
