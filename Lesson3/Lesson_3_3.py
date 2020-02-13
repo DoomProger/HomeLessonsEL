@@ -15,3 +15,5 @@ for el in range(0, 3):
     arg.append(float(input('Введите число:')))
 
 print(f'Сумма наибольших двух аргументов из {arg} это {my_func(arg[0], arg[1], arg[2])}')
+
+
