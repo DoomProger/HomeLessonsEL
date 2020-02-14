@@ -20,7 +20,7 @@ def find_q(val):
 def sum_val(arg, ind):
    sums = 0
 
-    if ind == None:
+    if ind is None:
         b = map(int, arg)
         sums = sum(b)
         return sums
