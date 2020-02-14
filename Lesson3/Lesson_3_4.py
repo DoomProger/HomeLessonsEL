@@ -13,7 +13,7 @@
 def my_func(x, y):
     x = abs(float(x))
     y = abs(int(y)) * -1
-    return print(x ** y)
+    return print('Функцией pow: ', pow(x, y)), print('Возведение в степень: ', x**y)
 
 
 my_func(10, 4)
@@ -24,7 +24,7 @@ def my_func1(x, y):
     res = 1
     for i in range(abs(y)):
         res *= x
-    return print(1 / res)
+    return print('Циклом: ', 1 / res)
 
 
 my_func1(10, 4)
